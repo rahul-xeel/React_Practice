@@ -1,1 +1,1 @@
-[![Website Preview](https://link-to-your-screenshot-image.com/screenshot.png)](https://yourwebsite.com)
+[![Website Preview](https://rahul-xeel.github.io/React_Practice/ss.png)](https://rahul-xeel.github.io/React_Practice/)
