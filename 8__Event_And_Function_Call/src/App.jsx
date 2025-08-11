@@ -29,22 +29,22 @@ function App() {
     <div>
 
       <h1>Case 1 : Function Refrence </h1>
-      <button onClick={Function_Refrence}>Function Refrence</button>
+      <button onClick={Function_Refrence}>CLICK ME !</button>
       <br />
       <br />
 
       <h1>Case 2 : Function Call ( )</h1>
-      <button onClick={Function_Call()}>Function Call</button>
+      <button onClick={Function_Call()}>CLICK ME !</button>
       <br />
       <br />
 
       <h1>Case 3 : Argument With Function Refrence (Arraw function used) </h1>
-      <button onClick={() => {Arg_With_Fun_Ref("Apple is Arg")}}>Arg_With_Fun_Ref </button>
+      <button onClick={() => {Arg_With_Fun_Ref("Apple is Arg")}}>CLICK ME !</button>
       <br />
       <br />
 
        <h1>Case 4 : Argument With Function Call ( )</h1>
-      <button onClick={Arg_With_Fun_Call("Ball is arg")}>Arg_With_Fun_Ref Call</button>
+      <button onClick={Arg_With_Fun_Call("Ball is arg")}>CLICK ME !</button>
       <br />
       <br />
 
