@@ -3,6 +3,16 @@ import Footer from "./Footer"
 import MainBody from "./MainBody"
 
 
+
+function Sum(){
+
+  const a = "20";
+  return a ;
+}
+
+const fruit = "apple";
+
+
 function App() {
 
   return (
@@ -14,6 +24,9 @@ function App() {
        <Header  />
        <MainBody />
        <Footer />
+       <h1>{Sum()}</h1>   
+       <h1>{fruit}</h1>
+      <h1>Mai {Sum()} {fruit} kha sakta hu</h1> 
 
     </div>
 
@@ -22,3 +35,4 @@ function App() {
 }
 
 export default App
+
