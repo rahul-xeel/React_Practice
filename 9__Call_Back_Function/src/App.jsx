@@ -20,6 +20,28 @@ function App() {
         <li>In simple terms: You pass a function as an argument to another function. The function that receives the argument will call the passed function (callback) at the appropriate time or under specific conditions.</li>
       </ul>
 
+      <h3>
+
+        {'  function greet(name) { '} <br />
+        {'  alert("Hello " + name);    '} <br />
+        {'}'}
+
+        <br />
+        <br />
+
+        {' function Name_Finder(Callback) {           '}  <br />
+        {' name = promt("What is your name ?")'}    <br />
+        {'  callback(name);                               '} <br />
+        {' }   '} 
+        <br />
+         <br />
+
+        {'  Name_Finder(greet); '}
+
+
+      </h3>
+
+
     </>
 
   )
