@@ -1,14 +1,29 @@
-import React, { useEffect } from 'react';
-
+import React, { useEffect, useState } from 'react';
+import Data from './Data';
 function App() {
-  useEffect(() => {
-    alert("Effect hit");
-  }, []); 
+
+  const [dataAvalue, setDATAaVALUE] = useState(0);
+  const [dataBvalue, setDATAbVALUE] = useState(0);
+  const [display, setDisplay] = useState(true);
 
   return (
+
     <>
-      <h1>UseEffect Dependency Array</h1>
+
+      {
+        display ? <Data dataAvalue={dataAvalue} dataBvalue={dataBvalue} /> : null
+      }
+
+      <br />
+      <button onClick={() => { setDATAaVALUE(dataAvalue + 1) }}>Add in Data A</button>
+      <button onClick={() => { setDATAbVALUE(dataBvalue + 1) }}>Add in Data B</button>
+      <button onClick={() => { setDisplay(!display) }}>TOGGLE</button>
+
+      <h1>Open console to see changes</h1>
+
+
     </>
+
   );
 }
 
